@@ -11526,3 +11526,131 @@ java.lang.Exception: Resource '/hello_world/main/hello_world_main.c' does not ex
 
 !ENTRY com.espressif.idf.core 1 0 2024-07-04 10:40:51.877
 !MESSAGE flash command: C:\Espressif\python_env\idf5.2_py3.11_env\Scripts\python.exe C:\Espressif\frameworks\esp-idf-v5.2.2\tools\idf.py -p COM6 flash
+!SESSION 2024-07-04 10:52:18.770 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.6
+java.vendor=Amazon.com Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pl_PL
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.espressif.idf.core 1 0 2024-07-04 10:52:29.077
+!MESSAGE clangd: C:\Espressif\tools\esp-clang\16.0.1-fe4f10a809\esp-clang\bin\clangd.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-07-04 10:52:29.083
+!MESSAGE clangd: C:\Espressif\tools\esp-clang\16.0.1-fe4f10a809\esp-clang\bin\clangd.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-07-04 10:52:29.084
+!MESSAGE toolchain path: null
+
+!ENTRY com.espressif.idf.core 1 0 2024-07-04 10:52:29.091
+!MESSAGE toolchain path: null
+
+!ENTRY com.espressif.idf.core 1 0 2024-07-04 10:52:29.094
+!MESSAGE toolchain path: null
+
+!ENTRY org.eclipse.launchbar.core 2 0 2024-07-04 10:52:30.400
+!MESSAGE Enablement expression is missing for descriptor type com.espressif.idf.debug.gdbjtag.openocd.descriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2024-07-04 10:52:30.401
+!MESSAGE Enablement expression is missing for config provider for com.espressif.idf.debug.gdbjtag.openocd.descriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2024-07-04 10:52:30.403
+!MESSAGE Enablement expression is missing for config provider for com.espressif.idf.launch.serial.core.idf.descriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2024-07-04 10:52:30.404
+!MESSAGE Enablement expression is missing for descriptor type com.espressif.idf.launch.serial.core.idf.descriptorType
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-07-04 10:52:30.535
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\mt150'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.espressif.idf.core 1 0 2024-07-04 10:52:30.806
+!MESSAGE Initializing toolchain...
+
+!ENTRY com.espressif.idf.core 1 0 2024-07-04 10:52:30.807
+!MESSAGE idf_tools.py path: C:/Espressif/frameworks/esp-idf-v5.2.2//tools/idf_tools.py
+
+!ENTRY com.espressif.idf.core 1 0 2024-07-04 10:52:30.808
+!MESSAGE [C:\Espressif\python_env\idf5.2_py3.11_env\Scripts\python.exe, C:/Espressif/frameworks/esp-idf-v5.2.2//tools/idf_tools.py, export, --format=key-value]
+
+!ENTRY com.espressif.idf.core 1 0 2024-07-04 10:52:31.406
+!MESSAGE Eclipse Install location::file:/C:/Espressif/tools/espressif-ide/3.0.0/
+
+!ENTRY com.espressif.idf.core 1 0 2024-07-04 10:52:31.424
+!MESSAGE Ignoring esp_idf.json settings as it was configured earilier and idf_path is similar.
+
+!ENTRY com.espressif.idf.core 1 0 2024-07-04 10:52:31.687
+!MESSAGE idf_tools.py export output: WARNING: Error while accessing the ESP-IDF version file in the Python environment: [Errno 2] No such file or directory: 'C:\\Espressif\\python_env\\idf5.2_py3.11_env\\idf_version.txt'
+OPENOCD_SCRIPTS=C:\Espressif\tools\openocd-esp32\v0.12.0-esp32-20240318\openocd-esp32\share\openocd\scripts
+IDF_CCACHE_ENABLE=1
+ESP_ROM_ELF_DIR=C:\Espressif\tools\esp-rom-elfs\20230320\
+IDF_PYTHON_ENV_PATH=C:\Espressif\python_env\idf5.2_py3.11_env
+ESP_IDF_VERSION=5.2
+PATH=C:\Espressif\tools\xtensa-esp-elf-gdb\14.2_20240403\xtensa-esp-elf-gdb\bin;C:\Espressif\tools\riscv32-esp-elf-gdb\14.2_20240403\riscv32-esp-elf-gdb\bin;C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin;C:\Espressif\tools\esp-clang\16.0.1-fe4f10a809\esp-clang\bin;C:\Espressif\tools\riscv32-esp-elf\esp-13.2.0_20230928\riscv32-esp-elf\bin;C:\Espressif\tools\esp32ulp-elf\2.35_20220830\esp32ulp-elf\bin;C:\Espressif\tools\cmake\3.24.0\bin;C:\Espressif\tools\openocd-esp32\v0.12.0-esp32-20240318\openocd-esp32\bin;C:\Espressif\tools\ninja\1.11.1\;C:\Espressif\tools\idf-exe\1.0.3\;C:\Espressif\tools\ccache\4.8\ccache-4.8-windows-x86_64;C:\Espressif\tools\dfu-util\0.11\dfu-util-0.11-win64;C:\Espressif\tools\qemu-xtensa\esp_develop_8.2.0_20240122\qemu\bin;C:\Espressif\tools\qemu-riscv32\esp_develop_8.2.0_20240122\qemu\bin;C:\Espressif\python_env\idf5.2_py3.11_env\Scripts;C:\Espressif\frameworks\esp-idf-v5.2.2\tools;%PATH%
+IDF_DEACTIVATE_FILE_PATH=C:\Users\mt150\AppData\Local\Temp\tmpxz7w_mbnidf_2404
+
+!ENTRY com.espressif.idf.core 1 0 2024-07-04 10:52:31.688
+!MESSAGE PATH: C:\Espressif\tools\xtensa-esp-elf-gdb\14.2_20240403\xtensa-esp-elf-gdb\bin;C:\Espressif\tools\riscv32-esp-elf-gdb\14.2_20240403\riscv32-esp-elf-gdb\bin;C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin;C:\Espressif\tools\esp-clang\16.0.1-fe4f10a809\esp-clang\bin;C:\Espressif\tools\riscv32-esp-elf\esp-13.2.0_20230928\riscv32-esp-elf\bin;C:\Espressif\tools\esp32ulp-elf\2.35_20220830\esp32ulp-elf\bin;C:\Espressif\tools\cmake\3.24.0\bin;C:\Espressif\tools\openocd-esp32\v0.12.0-esp32-20240318\openocd-esp32\bin;C:\Espressif\tools\ninja\1.11.1\;C:\Espressif\tools\idf-exe\1.0.3\;C:\Espressif\tools\ccache\4.8\ccache-4.8-windows-x86_64;C:\Espressif\tools\dfu-util\0.11\dfu-util-0.11-win64;C:\Espressif\tools\qemu-xtensa\esp_develop_8.2.0_20240122\qemu\bin;C:\Espressif\tools\qemu-riscv32\esp_develop_8.2.0_20240122\qemu\bin;C:\Espressif\python_env\idf5.2_py3.11_env\Scripts;C:\Espressif\frameworks\esp-idf-v5.2.2\tools;%PATH%
+
+!ENTRY com.espressif.idf.core 1 0 2024-07-04 10:52:31.689
+!MESSAGE [C:\Espressif\tools\xtensa-esp-elf-gdb\14.2_20240403\xtensa-esp-elf-gdb\bin;C:\Espressif\tools\riscv32-esp-elf-gdb\14.2_20240403\riscv32-esp-elf-gdb\bin;C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin;C:\Espressif\tools\esp-clang\16.0.1-fe4f10a809\esp-clang\bin;C:\Espressif\tools\riscv32-esp-elf\esp-13.2.0_20230928\riscv32-esp-elf\bin;C:\Espressif\tools\esp32ulp-elf\2.35_20220830\esp32ulp-elf\bin;C:\Espressif\tools\cmake\3.24.0\bin;C:\Espressif\tools\openocd-esp32\v0.12.0-esp32-20240318\openocd-esp32\bin;C:\Espressif\tools\ninja\1.11.1\;C:\Espressif\tools\idf-exe\1.0.3\;C:\Espressif\tools\ccache\4.8\ccache-4.8-windows-x86_64;C:\Espressif\tools\dfu-util\0.11\dfu-util-0.11-win64;C:\Espressif\tools\qemu-xtensa\esp_develop_8.2.0_20240122\qemu\bin;C:\Espressif\tools\qemu-riscv32\esp_develop_8.2.0_20240122\qemu\bin;C:\Espressif\python_env\idf5.2_py3.11_env\Scripts;C:\Espressif\frameworks\esp-idf-v5.2.2\tools;%PATH%]
+
+!ENTRY com.espressif.idf.core 1 0 2024-07-04 10:52:31.779
+!MESSAGE Project Name:: hello_world
+
+!ENTRY com.espressif.idf.core 1 0 2024-07-04 10:52:31.780
+!MESSAGE Project:: P/hello_world
+
+!ENTRY com.espressif.idf.core 1 0 2024-07-04 10:52:31.794
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-07-04 10:52:31.802
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-07-04 10:52:31.808
+!MESSAGE clangd: C:\Espressif\tools\esp-clang\16.0.1-fe4f10a809\esp-clang\bin\clangd.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-07-04 10:52:31.814
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-07-04 10:52:31.823
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-07-04 11:22:47.974
+!MESSAGE clangd: C:\Espressif\tools\esp-clang\16.0.1-fe4f10a809\esp-clang\bin\clangd.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-07-04 11:22:47.987
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-07-04 11:22:48.000
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-07-04 11:22:48.686
+!MESSAGE ESP-IDF v5.2.2
+
+!ENTRY com.espressif.idf.core 1 0 2024-07-04 11:23:24.639
+!MESSAGE clangd: C:\Espressif\tools\esp-clang\16.0.1-fe4f10a809\esp-clang\bin\clangd.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-07-04 11:23:24.645
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-07-04 11:23:24.652
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-07-04 11:23:24.762
+!MESSAGE C:\Espressif\frameworks\esp-idf-v5.2.2\tools\idf.py -p COM6 flash
+
+!ENTRY com.espressif.idf.core 1 0 2024-07-04 11:23:24.769
+!MESSAGE flash command: C:\Espressif\python_env\idf5.2_py3.11_env\Scripts\python.exe C:\Espressif\frameworks\esp-idf-v5.2.2\tools\idf.py -p COM6 flash
+
+!ENTRY com.espressif.idf.core 1 0 2024-07-04 11:23:26.757
+!MESSAGE clangd: C:\Espressif\tools\esp-clang\16.0.1-fe4f10a809\esp-clang\bin\clangd.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-07-04 11:23:26.764
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
+
+!ENTRY com.espressif.idf.core 1 0 2024-07-04 11:23:26.771
+!MESSAGE toolchain path: C:\Espressif\tools\xtensa-esp-elf\esp-13.2.0_20230928\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe
