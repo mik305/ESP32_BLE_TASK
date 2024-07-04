@@ -16,3 +16,4 @@ Platforma testowa:
 - Windows 10
 - nRF Connect - aplikacja
 - Android 14
+- Dockilight V2.4 115200
